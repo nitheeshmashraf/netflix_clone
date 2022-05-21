@@ -23,7 +23,6 @@ class NewAndHotCardWidget extends StatelessWidget {
   final String image;
   @override
   Widget build(BuildContext context) {
-    Size size = MediaQuery.of(context).size;
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [

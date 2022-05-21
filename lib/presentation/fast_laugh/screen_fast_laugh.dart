@@ -8,7 +8,7 @@ class ScreenFastLaugh extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    WidgetsBinding.instance!.addPostFrameCallback((timeStamp) =>
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) =>
         BlocProvider.of<FastlaughBloc>(context).add(const Initialize()));
     return Scaffold(
       body: SafeArea(child: BlocBuilder<FastlaughBloc, FastlaughState>(

@@ -219,7 +219,6 @@ class _FastLaughVideoPlayerState extends State<FastLaughVideoPlayer> {
 
   @override
   void dispose() {
-    // TODO: implement dispose
     _videoPlayerController.dispose();
     super.dispose();
   }
